@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agent — VALORANT Road Map</title>
+  <meta name="description" content="A VALORANT agent profile with abilities, role and beginner tips.">
+  <link rel="icon" href="assets/icons/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/agents.css">
+</head>
+<body data-agent="sage">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="VALORANT Road Map home">
+        <svg class="brand-mark" viewBox="0 0 40 36" aria-hidden="true"><path fill="currentColor" d="M1 3h9l10 22L30 3h9L23 34h-6z"/></svg>
+        <span class="brand-title">VALORANT ROAD MAP</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="fundamentals.html">Fundamentals</a></li>
+          <li><a href="agents.html" aria-current="page">Agents</a></li>
+          <li><a href="maps.html">Maps</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="section agent-page">
+      <div class="container" id="agent-root">
+        <!-- Fallback shown only until js/agents.js renders the requested agent. -->
+        <p><a class="back-link" href="agents.html">&larr; Back to Agents</a></p>
+        <h1>Choose an agent</h1>
+        <p class="section__lead">Pick an agent from the roster to see their abilities and beginner tips.</p>
+        <p><a class="btn" href="agents.html">Go to the Agents roster</a></p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand"><svg viewBox="0 0 40 36" width="28" height="25" aria-hidden="true"><path fill="#ff4655" d="M1 3h9l10 22L30 3h9L23 34h-6z"/></svg>VALORANT ROAD MAP</div>
+      <p>An educational beginner guide. VALORANT and all related names and artwork belong to Riot Games; this is a fan-made study project.</p>
+      <p class="footer-credits">Credits: <a href="https://valorant.fandom.com/wiki/VALORANT_Wiki" target="_blank" rel="noopener noreferrer">VALORANT Wiki</a> &middot; <a href="https://valoplant.gg/" target="_blank" rel="noopener noreferrer">VALOPLANT.GG</a></p>
+      <p class="footer-legal">Copyright and fair use: VALORANT and its related names, artwork and images belong to Riot Games. Content on this site is shared under fair use for educational, non-commercial guidance. Rights holders with concerns may contact us to have material reviewed or removed.</p>
+      <nav class="footer-links" aria-label="Footer"><a href="index.html">Home</a><a href="training.html">Training</a><a href="contact.html">Contact</a></nav>
+    </div>
+  </footer>
+  <script src="js/main.js" defer></script>
+  <script src="data/agents.js" defer></script>
+  <script src="js/agents.js" defer></script>
+</body>
+</html>

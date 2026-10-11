@@ -1,0 +1,488 @@
+{
+ "brimstone": {
+  "art": "assets/img/agents/brimstone/art.webp",
+  "abilities": [
+   {
+    "name": "Incendiary",
+    "icon": "assets/img/agents/brimstone/incendiary.webp"
+   },
+   {
+    "name": "Orbital Strike",
+    "icon": "assets/img/agents/brimstone/orbital-strike.webp"
+   },
+   {
+    "name": "Sky Smoke",
+    "icon": "assets/img/agents/brimstone/sky-smoke.webp"
+   },
+   {
+    "name": "Stim Beacon",
+    "icon": "assets/img/agents/brimstone/stim-beacon.webp"
+   }
+  ]
+ },
+ "viper": {
+  "art": "assets/img/agents/viper/art.webp",
+  "abilities": [
+   {
+    "name": "Poison Cloud",
+    "icon": "assets/img/agents/viper/poison-cloud.webp"
+   },
+   {
+    "name": "Snake Bite",
+    "icon": "assets/img/agents/viper/snake-bite.webp"
+   },
+   {
+    "name": "Toxic Screen",
+    "icon": "assets/img/agents/viper/toxic-screen.webp"
+   },
+   {
+    "name": "Viper's Pit",
+    "icon": "assets/img/agents/viper/vipers-pit.webp"
+   }
+  ]
+ },
+ "omen": {
+  "art": "assets/img/agents/omen/art.webp",
+  "abilities": [
+   {
+    "name": "Cove",
+    "icon": "assets/img/agents/omen/cove.webp"
+   },
+   {
+    "name": "Dark Cover",
+    "icon": "assets/img/agents/omen/dark-cover.webp"
+   },
+   {
+    "name": "From the Shadows",
+    "icon": "assets/img/agents/omen/from-the-shadows.webp"
+   },
+   {
+    "name": "Paranoia",
+    "icon": "assets/img/agents/omen/paranoia.webp"
+   },
+   {
+    "name": "Shrouded Step",
+    "icon": "assets/img/agents/omen/shrouded-step.webp"
+   }
+  ]
+ },
+ "astra": {
+  "art": "assets/img/agents/astra/art.webp",
+  "abilities": [
+   {
+    "name": "Cosmic Divide",
+    "icon": "assets/img/agents/astra/cosmic-divide.webp"
+   },
+   {
+    "name": "Gravity Well",
+    "icon": "assets/img/agents/astra/gravity-well.webp"
+   },
+   {
+    "name": "Nebula - Dissipate",
+    "icon": "assets/img/agents/astra/nebula-dissipate.webp"
+   },
+   {
+    "name": "Nova Pulse",
+    "icon": "assets/img/agents/astra/nova-pulse.webp"
+   },
+   {
+    "name": "Stars",
+    "icon": "assets/img/agents/astra/stars.webp"
+   }
+  ]
+ },
+ "harbor": {
+  "art": "assets/img/agents/harbor/art.webp",
+  "abilities": [
+   {
+    "name": "High Tide",
+    "icon": "assets/img/agents/harbor/high-tide.webp"
+   },
+   {
+    "name": "Reckoning",
+    "icon": "assets/img/agents/harbor/reckoning.webp"
+   },
+   {
+    "name": "Storm Surge",
+    "icon": "assets/img/agents/harbor/storm-surge.webp"
+   }
+  ]
+ },
+ "clove": {
+  "art": "assets/img/agents/clove/art.webp",
+  "abilities": [
+   {
+    "name": "Meddle",
+    "icon": "assets/img/agents/clove/meddle.webp"
+   },
+   {
+    "name": "Not Dead Yet",
+    "icon": "assets/img/agents/clove/not-dead-yet.webp"
+   },
+   {
+    "name": "Pick-me-up",
+    "icon": "assets/img/agents/clove/pick-me-up.webp"
+   },
+   {
+    "name": "Ruse",
+    "icon": "assets/img/agents/clove/ruse.webp"
+   }
+  ]
+ },
+ "miks": {
+  "art": "assets/img/agents/miks/art.webp",
+  "abilities": [
+   {
+    "name": "Bassquake",
+    "icon": "assets/img/agents/miks/bassquake.webp"
+   },
+   {
+    "name": "Harmonize",
+    "icon": "assets/img/agents/miks/harmonize.webp"
+   },
+   {
+    "name": "M-pulse",
+    "icon": "assets/img/agents/miks/m-pulse.webp"
+   },
+   {
+    "name": "Waveform",
+    "icon": "assets/img/agents/miks/waveform.webp"
+   }
+  ]
+ },
+ "breach": {
+  "art": "assets/img/agents/breach/art.webp",
+  "abilities": [
+   {
+    "name": "Aftershock",
+    "icon": "assets/img/agents/breach/aftershock.webp"
+   },
+   {
+    "name": "Fault Line",
+    "icon": "assets/img/agents/breach/fault-line.webp"
+   },
+   {
+    "name": "Flashpoint",
+    "icon": "assets/img/agents/breach/flashpoint.webp"
+   },
+   {
+    "name": "Rolling Thunder",
+    "icon": "assets/img/agents/breach/rolling-thunder.webp"
+   }
+  ]
+ },
+ "gekko": {
+  "art": "assets/img/agents/gekko/art.webp",
+  "abilities": [
+   {
+    "name": "Dizzy",
+    "icon": "assets/img/agents/gekko/dizzy.webp"
+   },
+   {
+    "name": "Mosh Pit",
+    "icon": "assets/img/agents/gekko/mosh-pit.webp"
+   },
+   {
+    "name": "Thrash",
+    "icon": "assets/img/agents/gekko/thrash.webp"
+   },
+   {
+    "name": "Wingman",
+    "icon": "assets/img/agents/gekko/wingman.webp"
+   }
+  ]
+ },
+ "kayo": {
+  "art": "assets/img/agents/kayo/art.webp",
+  "abilities": [
+   {
+    "name": "FLASH-drive",
+    "icon": "assets/img/agents/kayo/flash-drive.webp"
+   },
+   {
+    "name": "FRAG-ment",
+    "icon": "assets/img/agents/kayo/frag-ment.webp"
+   },
+   {
+    "name": "NULL-cmd",
+    "icon": "assets/img/agents/kayo/null-cmd.webp"
+   },
+   {
+    "name": "ZERO-point",
+    "icon": "assets/img/agents/kayo/zero-point.webp"
+   }
+  ]
+ },
+ "skye": {
+  "art": "assets/img/agents/skye/art.webp",
+  "abilities": [
+   {
+    "name": "Guiding Light",
+    "icon": "assets/img/agents/skye/guiding-light.webp"
+   },
+   {
+    "name": "Regrowth",
+    "icon": "assets/img/agents/skye/regrowth.webp"
+   },
+   {
+    "name": "Seekers",
+    "icon": "assets/img/agents/skye/seekers.webp"
+   },
+   {
+    "name": "Trailblazer",
+    "icon": "assets/img/agents/skye/trailblazer.webp"
+   }
+  ]
+ },
+ "sova": {
+  "art": "assets/img/agents/sova/art.webp",
+  "abilities": [
+   {
+    "name": "Hunter's Fury",
+    "icon": "assets/img/agents/sova/hunters-fury.webp"
+   },
+   {
+    "name": "Owl Drone",
+    "icon": "assets/img/agents/sova/owl-drone.webp"
+   },
+   {
+    "name": "Recon Bolt",
+    "icon": "assets/img/agents/sova/recon-bolt.webp"
+   },
+   {
+    "name": "Shock Bolt",
+    "icon": "assets/img/agents/sova/shock-bolt.webp"
+   }
+  ]
+ },
+ "fade": {
+  "art": "assets/img/agents/fade/art.webp",
+  "abilities": [
+   {
+    "name": "Haunt",
+    "icon": "assets/img/agents/fade/haunt.webp"
+   },
+   {
+    "name": "Nightfall",
+    "icon": "assets/img/agents/fade/nightfall.webp"
+   },
+   {
+    "name": "Prowler",
+    "icon": "assets/img/agents/fade/prowler.webp"
+   },
+   {
+    "name": "Seize",
+    "icon": "assets/img/agents/fade/seize.webp"
+   }
+  ]
+ },
+ "iso": {
+  "art": "assets/img/agents/iso/art.webp",
+  "abilities": [
+   {
+    "name": "Contingency",
+    "icon": "assets/img/agents/iso/contingency.webp"
+   },
+   {
+    "name": "Double Tap",
+    "icon": "assets/img/agents/iso/double-tap.webp"
+   },
+   {
+    "name": "Kill Contract",
+    "icon": "assets/img/agents/iso/kill-contract.webp"
+   },
+   {
+    "name": "Undercut",
+    "icon": "assets/img/agents/iso/undercut.webp"
+   }
+  ]
+ },
+ "jett": {
+  "art": "assets/img/agents/jett/art.webp",
+  "abilities": [
+   {
+    "name": "Blade Storm",
+    "icon": "assets/img/agents/jett/blade-storm.webp"
+   },
+   {
+    "name": "Cloudburst",
+    "icon": "assets/img/agents/jett/cloudburst.webp"
+   },
+   {
+    "name": "Drift",
+    "icon": "assets/img/agents/jett/drift.webp"
+   },
+   {
+    "name": "Tailwind",
+    "icon": "assets/img/agents/jett/tailwind.webp"
+   },
+   {
+    "name": "Updraft",
+    "icon": "assets/img/agents/jett/updraft.webp"
+   }
+  ]
+ },
+ "neon": {
+  "art": "assets/img/agents/neon/art.webp",
+  "abilities": [
+   {
+    "name": "Fast Lane",
+    "icon": "assets/img/agents/neon/fast-lane.webp"
+   },
+   {
+    "name": "High Gear",
+    "icon": "assets/img/agents/neon/high-gear.webp"
+   },
+   {
+    "name": "Overdrive",
+    "icon": "assets/img/agents/neon/overdrive.webp"
+   },
+   {
+    "name": "Relay Bolt",
+    "icon": "assets/img/agents/neon/relay-bolt.webp"
+   }
+  ]
+ },
+ "phoenix": {
+  "art": "assets/img/agents/phoenix/art.webp",
+  "abilities": [
+   {
+    "name": "Blaze",
+    "icon": "assets/img/agents/phoenix/blaze.webp"
+   },
+   {
+    "name": "Curveball",
+    "icon": "assets/img/agents/phoenix/curveball.webp"
+   },
+   {
+    "name": "Hot Hands",
+    "icon": "assets/img/agents/phoenix/hot-hands.webp"
+   },
+   {
+    "name": "Run it Back",
+    "icon": "assets/img/agents/phoenix/run-it-back.webp"
+   }
+  ]
+ },
+ "reyna": {
+  "art": "assets/img/agents/reyna/art.webp",
+  "abilities": [
+   {
+    "name": "Devour",
+    "icon": "assets/img/agents/reyna/devour.webp"
+   },
+   {
+    "name": "Dismiss",
+    "icon": "assets/img/agents/reyna/dismiss.webp"
+   },
+   {
+    "name": "Empress",
+    "icon": "assets/img/agents/reyna/empress.webp"
+   },
+   {
+    "name": "Leer",
+    "icon": "assets/img/agents/reyna/leer.webp"
+   }
+  ]
+ },
+ "raze": {
+  "art": "assets/img/agents/raze/art.webp",
+  "abilities": [
+   {
+    "name": "Blast Pack",
+    "icon": "assets/img/agents/raze/blast-pack.webp"
+   },
+   {
+    "name": "Boom Bot",
+    "icon": "assets/img/agents/raze/boom-bot.webp"
+   },
+   {
+    "name": "Paint Shells",
+    "icon": "assets/img/agents/raze/paint-shells.webp"
+   },
+   {
+    "name": "Showstopper",
+    "icon": "assets/img/agents/raze/showstopper.webp"
+   }
+  ]
+ },
+ "waylay": {
+  "art": "assets/img/agents/waylay/art.webp",
+  "abilities": [
+   {
+    "name": "Convergent Paths",
+    "icon": "assets/img/agents/waylay/convergent-paths.webp"
+   },
+   {
+    "name": "Lightspeed",
+    "icon": "assets/img/agents/waylay/lightspeed.webp"
+   },
+   {
+    "name": "Refract",
+    "icon": "assets/img/agents/waylay/refract.webp"
+   },
+   {
+    "name": "Saturate",
+    "icon": "assets/img/agents/waylay/saturate.webp"
+   }
+  ]
+ },
+ "yoru": {
+  "art": "assets/img/agents/yoru/art.webp",
+  "abilities": [
+   {
+    "name": "Blindside",
+    "icon": "assets/img/agents/yoru/blindside.webp"
+   },
+   {
+    "name": "Dimensional Drift",
+    "icon": "assets/img/agents/yoru/dimensional-drift.webp"
+   },
+   {
+    "name": "Fakeout",
+    "icon": "assets/img/agents/yoru/fakeout.webp"
+   },
+   {
+    "name": "Gatecrash",
+    "icon": "assets/img/agents/yoru/gatecrash.webp"
+   }
+  ]
+ },
+ "_maps": {
+  "images": {
+   "ascent": "assets/img/maps/ascent.webp",
+   "bind": "assets/img/maps/bind.webp",
+   "breeze": "assets/img/maps/breeze.webp",
+   "corrode": "assets/img/maps/corrode.webp",
+   "fracture": "assets/img/maps/fracture.webp",
+   "haven": "assets/img/maps/haven.webp",
+   "icebox": "assets/img/maps/icebox.webp",
+   "lotus": "assets/img/maps/lotus.webp",
+   "pearl": "assets/img/maps/pearl.webp",
+   "split": "assets/img/maps/split.webp",
+   "sunset": "assets/img/maps/sunset.webp"
+  },
+  "examples": [
+   "assets/img/maps/examples/example-01.webp",
+   "assets/img/maps/examples/example-02.webp",
+   "assets/img/maps/examples/example-03.webp",
+   "assets/img/maps/examples/example-04.webp",
+   "assets/img/maps/examples/example-05.webp",
+   "assets/img/maps/examples/example-06.webp",
+   "assets/img/maps/examples/example-07.webp",
+   "assets/img/maps/examples/example-08.webp",
+   "assets/img/maps/examples/example-09.webp",
+   "assets/img/maps/examples/example-10.webp",
+   "assets/img/maps/examples/example-11.webp",
+   "assets/img/maps/examples/example-12.webp",
+   "assets/img/maps/examples/example-13.webp",
+   "assets/img/maps/examples/example-14.webp",
+   "assets/img/maps/examples/example-15.webp",
+   "assets/img/maps/examples/example-16.webp",
+   "assets/img/maps/examples/example-17.webp",
+   "assets/img/maps/examples/example-18.webp",
+   "assets/img/maps/examples/example-19.webp",
+   "assets/img/maps/examples/example-20.webp"
+  ]
+ }
+}

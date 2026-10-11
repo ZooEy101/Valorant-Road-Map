@@ -1,0 +1,18 @@
+/* Contact page — project info, credits, contact card */
+.contact { padding-top: clamp(40px, 5vw, 72px); }
+.contact h1 { font-size: clamp(2rem, 4.6vw, 3.4rem); margin-bottom: clamp(24px, 3vw, 36px); }
+.contact-stack { display: grid; gap: clamp(16px, 2.2vw, 24px); max-width: 960px; }
+.contact-block h2 { font-size: clamp(1.3rem, 2.2vw, 1.6rem); margin-bottom: 0.6em; }
+.contact-block p { color: var(--color-muted); max-width: 70ch; }
+.credits-title { font-size: 1rem; margin: 1.25em 0 0.5em; color: var(--color-text); }
+.credits-list { list-style: none; display: grid; gap: 10px; }
+.credits-list li { color: var(--color-muted); padding-left: 18px; position: relative; }
+.credits-list li::before { content: ""; position: absolute; left: 0; top: 0.62em; width: 8px; height: 8px; border-radius: 50%; background: var(--color-red); }
+.credits-list strong { color: var(--color-text); }
+.contact-info { display: flex; gap: clamp(16px, 3vw, 28px); align-items: flex-start; }
+.contact-info__icon { width: 72px; height: 72px; flex: 0 0 auto; }
+.contact-info .btn { margin-top: 12px; }
+@media (max-width: 480px) {
+  .contact-info { flex-direction: column; }
+  .contact-info .btn { width: 100%; }
+}

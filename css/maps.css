@@ -1,0 +1,46 @@
+/* VALORANT Road Map — maps index and map detail styles. Shared tokens and grids live in base.css. */
+
+/* ---------- Map index: card grid ---------- */
+.map-grid { list-style: none; }
+.map-grid > li { list-style: none; min-width: 0; }
+.map-card { padding: 0; overflow: hidden; height: 100%; display: block; }
+.map-card:hover { color: inherit; }
+.map-card__media { border: 0; border-radius: 0; background: var(--color-bg-2); margin: 0; }
+.map-card__media img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease; }
+.map-card:hover .map-card__media img { transform: scale(1.03); }
+.map-card__body { display: block; padding: 18px 20px 22px; }
+.map-card__body h3 { margin: 0 0 6px; font-size: clamp(1.2rem, 2vw, 1.4rem); text-transform: uppercase; letter-spacing: 0.02em; }
+.map-card__more { display: inline-block; color: var(--color-red); font-weight: 700; font-size: 0.9rem; }
+.map-card__placeholder { display: grid; place-items: center; background: radial-gradient(circle at 50% 40%, rgba(255, 70, 85, 0.22), transparent 60%), linear-gradient(135deg, #212c38, #0b1015); }
+.map-card__placeholder span { color: var(--color-soft); font-weight: 900; font-size: clamp(1.6rem, 3vw, 2.2rem); text-transform: uppercase; letter-spacing: 0.08em; }
+
+/* ---------- Breadcrumb ---------- */
+.breadcrumb { margin-bottom: 20px; font-size: 0.9rem; color: var(--color-muted); }
+.breadcrumb ol { list-style: none; display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; }
+.breadcrumb li + li::before { content: "/"; margin-right: 10px; color: var(--color-line); }
+.breadcrumb a { color: var(--color-soft); }
+.breadcrumb a:hover { color: var(--color-red); }
+.breadcrumb [aria-current="page"] { color: var(--color-text); font-weight: 600; }
+
+/* ---------- Map detail ---------- */
+.map-detail { padding-top: clamp(24px, 3vw, 40px); }
+.map-hero { margin-bottom: clamp(32px, 4vw, 48px); }
+.map-hero h1 { overflow-wrap: anywhere; margin-bottom: 0.4em; }
+.map-hero .section__lead { margin-bottom: 0; font-size: 1.05rem; }
+.map-compositions h2 { margin-bottom: clamp(20px, 3vw, 32px); }
+.map-block + .map-block { margin-top: clamp(32px, 4vw, 52px); }
+.map-block h3 { margin-bottom: 16px; font-size: clamp(1.1rem, 2vw, 1.3rem); }
+.map-block__media { margin: 0; border-radius: var(--radius); }
+.map-block__media img { width: 100%; height: 100%; object-fit: cover; }
+
+.map-cta {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;
+  margin-top: clamp(40px, 5vw, 72px); padding-top: clamp(24px, 3vw, 36px);
+  border-top: 1px solid var(--color-line);
+}
+
+/* ---------- Small screens ---------- */
+@media (max-width: 480px) {
+  .map-cta .btn { width: 100%; }
+  .map-card__body { padding: 16px 18px 20px; }
+}
